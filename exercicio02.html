@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+    <script>
+        var anoNas = prompt('Informe a data do seu nascimento')
+
+        while(anoNas >= 2023){
+            alert('Por favor informe seu ano de nascimento corretamente.')
+            anoNas = prompt('Por favor informe o ano do seu nascimento')
+        }
+
+        var anoAtual = prompt('E qual o seu ano atual?')
+
+        var idadeFinal = anoAtual - anoNas
+
+        alert(`A idade final é ${idadeFinal}`)
+    </script>
+</body>
+</html>
